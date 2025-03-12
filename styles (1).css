@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #252C41;
+}
+
+/* for the header */
+header{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* display: flex; */
+  /* gap: 100px; */
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+.left-side{
+  padding-left: 25px;
+}
+.left-side img{
+  width: 70px;
+  height: 70px;
+}
+
+.nav-right{
+  text-align: center;
+}
+.nav-right ul li {
+/* color: white; */
+text-decoration-line: none;
+list-style: none;
+align-items: center;
+margin: 0 0;
+padding: 0 0 0.5rem 1rem;
+display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  justify-content: space-between
+}
+
+a:hover {
+  color: greenyellow;
+  text-decoration: underline;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  justify-content: space-between;
+  gap: 200px;
+  align-items: center;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem 0 0.5rem;
+
+}
+button {
+color: black;
+padding: 0.5rem 1rem;
+border-radius: 50px;
+background-color: yellow;
+}
+.btn2{
+background-color: transparent;
+color: white;
+}
+.image{
+display: inline-block;
+border-radius: 70%;
+overflow: hidden;
+width: 350px;
+height: 300px;
+background-size:cover;
+}
+.image img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.right-info {
+padding: 0 5rem 0 0;
+align-items: right;
+}
+.info-left{
+  margin: 7px;
+  margin-top: 7%;
+  
+}
+.info-right{
+  color: white;
+}
+#btn1{
+  
+  color: black;
+  background-color: yellow;
+}
+#icon1{
+  background-color: transparent;
+}
+.info-right h1{
+  color: yellow;
+}
+
+
+/*about me page */
+
+.about-me{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  justify-content: space-around;
+  color: white;
+  gap: 110px;
+
+}
+
+.about-content{
+  padding-top: 150px;
+}
+.about-content .top{
+  color: greenyellow;
+  padding-bottom: 10px;
+}
+
+.Services{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 15px;
+}
+
+ol{
+  list-style: none;
+}
+
+.Services ol i{
+  padding-right: 10px;
+  color: greenyellow;
+}
+
+.about-image img{
+  width: 200px;
+  align-items: right;
+
+}
+
+
+.about-image img{
+  width: 400px;
+}
+/* 
+.Skills{
+  display: flex;
+  justify-content: space-around;
+  color: white;
+} */
+/* contact page */
+
+.Contact-main-box{
+  margin-top: 20px;
+  margin: 50px;
+  padding: 25px;
+  background-color: rgb(89, 86, 86);
+  border-radius: 20px;
+  color: white;
+}
+.Contact-main-box h1{
+  background-color: rgb(89, 86, 86);
+  padding-bottom: 10px;
+  
+}
+
+.Contact{
+display: flex;
+/* justify-content: space-around; */
+gap: 20px;
+background-color: rgb(89, 86, 86);
+}
+
+.Contact .logo{
+  background-color: yellowgreen;
+  color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+.Contact .logo i{
+  background-color: yellowgreen;
+  
+}
+
+.Contact span {
+  background-color: rgb(89, 86, 86);
+}
+
+.Contact h1 {
+  background-color: rgb(89, 86, 86);
+  color: white;
+}
+
+
+/* contact  */
+
+.Contact-box{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(89, 86, 86);
+  border-radius: 20px;
+}
+
+.skills{
+display: flex;
+gap: 20px;
+background-color: rgb(89, 86, 86);
+}
+
+.skills .logo{
+  background-color: yellowgreen;
+  color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 10px;
+}
+.skills .logo i{
+  background-color: yellowgreen;
+  
+}
+
+.skills span {
+  background-color: rgb(89, 86, 86);
+}
+
+.skills p {
+  background-color: rgb(89, 86, 86);
+}
